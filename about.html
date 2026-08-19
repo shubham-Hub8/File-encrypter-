@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About • Simple File Encryptor</title>
+
+    <link rel="icon" href="public/favicon.svg">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <style>
+        .about-main{
+            padding-top:42px;
+        }
+
+        .about-hero{
+            margin-bottom:34px;
+        }
+
+        .about-hero h1{
+            margin-bottom:10px;
+        }
+
+        .about-section h2{
+            color:var(--text);
+            margin-bottom:12px;
+        }
+
+        .about-section h3{
+            margin-top:20px;
+            margin-bottom:6px;
+        }
+
+        .about-section p,
+        .about-section li{
+            color:var(--muted);
+        }
+
+        .about-section ul{
+            padding-left:22px;
+        }
+
+        .about-note{
+            border-left:4px solid var(--primary);
+            background:rgba(30,41,59,.65);
+        }
+
+        .about-note strong{
+            color:var(--text);
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo-area">
+        <img src="public/logo.svg" alt="Logo">
+        <span>Simple File Encryptor</span>
+    </div>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+    </nav>
+</header>
+
+<main class="about-main">
+
+    <section class="hero about-hero">
+        <h1>About Simple File Encryptor</h1>
+        <p>Private, local file encryption with a simple interface.</p>
+    </section>
+
+    <section class="card about-section">
+        <h2>What is Simple File Encryptor?</h2>
+        <p>
+            <strong>Simple File Encryptor</strong> is a lightweight browser application
+            that encrypts and decrypts files directly on your device using the Web Crypto API.
+            Your files remain on your device throughout the entire process—nothing is uploaded
+            to a server.
+        </p>
+    </section>
+
+    <section class="card about-section">
+        <h2>Features</h2>
+        <ul>
+            <li>🔒 Password-protected file encryption.</li>
+            <li>🔓 Secure file decryption.</li>
+            <li>📂 Drag & Drop support.</li>
+            <li>📁 Manual file picker.</li>
+            <li>📊 Password strength indicator.</li>
+            <li>⚡ Fast browser-based processing.</li>
+            <li>📱 Mobile and desktop compatible.</li>
+            <li>🌐 Works completely offline after loading.</li>
+            <li>💾 Automatic download of processed files.</li>
+            <li>📦 Supports files up to <strong>1 GB</strong>.</li>
+            <li>📁 Supports selecting folders and multiple files.</li>
+        </ul>
+    </section>
+
+    <section class="card about-section">
+        <h2>How It Works</h2>
+        <p>
+            When you encrypt a file, your password is converted into a secure cryptographic key
+            using your browser's Web Crypto API. The file is then encrypted locally before being
+            downloaded back to your device.
+        </p>
+        <p>
+            To decrypt the file, simply select the encrypted file and enter the same password
+            that was used during encryption.
+        </p>
+    </section>
+
+    <section class="card about-section">
+        <h2>Privacy</h2>
+        <ul>
+            <li>Your files never leave your device.</li>
+            <li>Your password is never stored or transmitted.</li>
+            <li>No user accounts.</li>
+            <li>No cloud storage.</li>
+            <li>No advertisements.</li>
+            <li>No analytics or tracking.</li>
+        </ul>
+    </section>
+
+    <section class="card about-section">
+        <h2>Security Notes</h2>
+        <ul>
+            <li>Use a strong, unique password.</li>
+            <li>Keep backups of important files before encrypting.</li>
+            <li>If you forget your password, encrypted files cannot be recovered.</li>
+            <li>The application relies on your browser's built-in Web Crypto API.</li>
+        </ul>
+    </section>
+
+    <section class="card about-section">
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>Does this upload my files?</h3>
+        <p>No. Everything happens locally in your browser.</p>
+
+        <h3>Can I use it offline?</h3>
+        <p>Yes. Once the application has loaded, it can continue working without an internet connection.</p>
+
+        <h3>Is there a file size limit?</h3>
+        <p>Yes. The current maximum supported file size is <strong>1 GB</strong>.</p>
+
+        <h3>Can I recover a forgotten password?</h3>
+        <p>No. Without the correct password, encrypted files cannot be decrypted.</p>
+    </section>
+
+    <section class="card about-section about-note">
+        <strong>Version 1.5</strong><br>
+        Simple File Encryptor is an open-source project focused on privacy, simplicity,
+        and secure local file encryption.
+        <br><br>
+
+        <strong>Version 1.5 Release</strong><br>
+        Improved the overall user interface with smoother animations, refined button
+        interactions, consistent focus states, improved password visibility styling,
+        and a cleaner navigation experience between the Home and About pages.
+        <br><br>
+
+        <strong>Version 1.1</strong><br>
+        Added support for selecting folders and multiple files.
+    </section>
+
+</main>
+
+<footer>
+    <p>Simple File Encryptor</p>
+    <p>Client-side encryption using the Web Crypto API</p>
+</footer>
+
+</body>
+</html>
