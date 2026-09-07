@@ -1,5 +1,7 @@
 SFE — Simple File Encrypter
-(USE: Netlify.securefileencrypter.app)
+
+USE: https://securefileencrypter.netlify.app/
+
 SFE (Simple File Encrypter) is an open-source, portable file encryption tool designed to make strong file encryption simple, transparent, and easy to use.
 
 It uses a password-based key derivation process with Argon2id, unique salts, and per-file initialization vectors (IVs) to protect encrypted files.
